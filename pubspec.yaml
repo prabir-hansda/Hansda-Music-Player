@@ -1,0 +1,17 @@
+name: hansda_music_player
+description: A Flutter Music Player App with Local and YouTube playback
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.32
+  on_audio_query: ^2.9.0
+  permission_handler: ^11.0.0
+  youtube_player_flutter: ^8.1.0
+
+flutter:
+  uses-material-design: true
